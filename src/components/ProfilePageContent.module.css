@@ -1,0 +1,26 @@
+.imgProfile {
+  height: 120px;
+  width: 120px;
+  border-radius: 50px;
+}
+.profileHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+  color: white;
+}
+
+.profileName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.newsFeed {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+}

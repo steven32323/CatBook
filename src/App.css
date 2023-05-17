@@ -1,3 +1,32 @@
 :root {
   background-color: #121212;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+html {
+  margin: -5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  width: 33%;
+  height: 100%;
+  color: white;
+}
+.body {
+  display: flex;
+  flex: 1;
+  /* width: 136vh; */
+  justify-content: center;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: blue;
 }

@@ -1,0 +1,13 @@
+.menuList {
+  display: flex;
+  flex: 1;
+  position: sticky;
+  top: 60px; /* equal to the height of the navbar */
+  height: calc(100vh - 60px); /* subtract the height of the navbar */
+  overflow-y: auto;
+}
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}

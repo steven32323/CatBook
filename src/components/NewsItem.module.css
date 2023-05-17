@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #404040;
+  padding: 3vh;
+  border-radius: 20px;
+  margin-top: 2vh;
+  width: 50vh;
+  height: fit-content;
+}
+.imgLarge {
+  height: 70vh;
+  width: 112%;
+}
+.imgLogo {
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+}
+span,
+p {
+  color: white;
+}
+.header {
+  display: flex;
+}
+.bold {
+  font-weight: bold;
+}
+.datePosted {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
